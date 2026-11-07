@@ -23,8 +23,8 @@ importers:
         specifier: 5.0.42
         version: 5.0.42(zod@4.3.5)
       '@ai-sdk/test-server':
-        specifier: 2.0.0
-        version: 2.0.0(@types/node@24.2.0)(typescript@5.9.2)
+        specifier: 2.0.4
+        version: 2.0.4(@types/node@24.2.0)(typescript@5.9.2)
       '@biomejs/biome':
         specifier: 2.3.7
         version: 2.3.7
@@ -83,8 +83,8 @@ packages:
     resolution: {integrity: sha512-pppj3u2efqrL5H20uOCayE9pXRjUZWLRHpdW1b2KRCdykYlgvt/bkVPyagv1IHDhkru7vmEkOhdytRagCQjNIQ==}
     engines: {node: '>=22'}
 
-  '@ai-sdk/test-server@2.0.0':
-    resolution: {integrity: sha512-iEbQm0F+vSA2/yEyp5pGOy1MLdgk7jGRm6HnObjTb4pLQUtjG7CecR20aI+84abEInEImRkyPegKotnGrS+29Q==}
+  '@ai-sdk/test-server@2.0.4':
+    resolution: {integrity: sha512-0oRXGN3vs6KMCMqp73hoVNYdfa8bLrPsc7FHE0KN9An6Kl3+XHymHdwEzAIuMYkxQsiACoahIMP+LSxl1KE9Tg==}
     engines: {node: '>=22'}
 
   '@babel/runtime@7.28.6':
@@ -1762,7 +1762,7 @@ snapshots:
     dependencies:
       json-schema: 0.4.0
 
-  '@ai-sdk/test-server@2.0.0(@types/node@24.2.0)(typescript@5.9.2)':
+  '@ai-sdk/test-server@2.0.4(@types/node@24.2.0)(typescript@5.9.2)':
     dependencies:
       msw: 2.15.0(@types/node@24.2.0)(typescript@5.9.2)
     transitivePeerDependencies:
